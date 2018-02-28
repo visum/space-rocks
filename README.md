@@ -17,7 +17,11 @@ Components are pieces of game data that may be interesting to Systems. A `positi
 
 Systems are where the work happens. On each tick, the entire list of game objects is handed to each of the systems, which operate on them. Systems are allowed to mutate components in entities and even add new components to entities. A collision system, for example, will examine `position` components and decide which entities are colliding. It will then add a `collision` component that systems further down the line can use. The order in which systems run is important.
 
-JavaScript being dynamically typed, my components are not formal classes defined anywhere (thus the absence of a folder named "entities" in the src). Each system will be documented with the components they care about.
+### Design Principles
+1) Entities are _state only_. No logic.
+2) Systems may not communicate with one another directly.
+3) Game must gracefully tolerate a broken system.
+4) game.world holds all current game state.
 
 ### Optimizations
 My primary design goal will be a working, performant game. Second comes the readability of the code. If the second comes into conflict with the first, I will make the necessary optimizations and document them appropriately. This should be rare if my architecture is in good shape. Many optimizations is often a symptom of an architecture that needs improvement.
@@ -27,3 +31,6 @@ In the course of the project, I will document here things I've learned along the
 
 ### How to spell "optimization"
 o-p-t-i-m-i-z-a-t-i-o-n
+
+## Acknowledgements
+I work closely day-to-day with [Jared Barnes](https://github.com/jaredjbarnes) and am therefore heavily influenced by his ideas. He's working on a [game engine of his own](https://github.com/jaredjbarnes/SimpleGameEngine), and we share ideas.

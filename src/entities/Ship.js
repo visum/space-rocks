@@ -1,3 +1,3 @@
-export default class Ship {
+export default {
   
-}
+};
