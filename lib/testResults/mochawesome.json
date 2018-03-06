@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-03-04T14:32:30.066Z",
+    "end": "2018-03-04T14:32:30.072Z",
+    "duration": 6,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "af7bf43c-75ef-469d-a62a-ca43bdd70b4a",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "71b70462-9844-418c-86ed-2d2f83da6c30",
+        "title": "mocha",
+        "fullFile": "/Users/bdhowe/git/space-rocks/lib/scripts/test/sanity.js",
+        "file": "/lib/scripts/test/sanity.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "should generate some output",
+            "fullTitle": "mocha should generate some output",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "(0, _assert2.default)(true);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "47475d95-8f97-4c67-a888-552b4b2a7b26",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "booba dooba!",
+            "fullTitle": "mocha booba dooba!",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "(0, _assert2.default)(true);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d7cf078b-57ba-42d8-ad52-347bc9a47563",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "47475d95-8f97-4c67-a888-552b4b2a7b26",
+          "d7cf078b-57ba-42d8-ad52-347bc9a47563"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
